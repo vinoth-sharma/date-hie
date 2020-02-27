@@ -9,6 +9,13 @@ export class FormatCrudComponent implements OnInit {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = new MatTableDataSource(ELEMENT_DATA);
 
+  formatData = [
+    { name : "Date Format 1", format : "MM-YYYY"},
+    { name : "Date Format 2", format : "YYYY"},
+    { name : "Date Format 3", format : "DD-MM-YYYY"},
+    { name : "Date Format 4", format : "MM-DD-YYYY"}
+  ]
+
   constructor() {
     
    }
