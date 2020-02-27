@@ -1,0 +1,25 @@
+
+:host{
+    padding: 10px;
+    margin:30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    align-items: stretch;
+}
+.stretch{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.row-end{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
