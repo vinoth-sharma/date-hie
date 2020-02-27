@@ -7,6 +7,8 @@ import { ColumnMappingComponent } from './column-mapping/column-mapping.componen
 import { FormatCrudComponent } from './format-crud/format-crud.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from "./material.module";
+// import { CommonModule } from '@angular/common';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -16,9 +18,11 @@ import { MaterialModule } from "./material.module";
   ],
   imports: [
     BrowserModule,
+    // CommonModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule.forRoot()
+    MaterialModule.forRoot(),
+    // MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

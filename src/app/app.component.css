@@ -1,0 +1,11 @@
+h3{
+    height: 50px;
+    width: 100%;
+    background: #16345a;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

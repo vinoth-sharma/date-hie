@@ -7,7 +7,7 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatRadioModule } from '@angular/material/radio';
-import {MatSelectModule} from '@angular/material/select';
+import { MatSelectModule } from '@angular/material/select';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatMenuModule} from '@angular/material/menu';
@@ -32,6 +32,8 @@ import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { MatBadgeModule } from '@angular/material/badge';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { MatTreeModule } from "@angular/material/tree";
+
 @NgModule({
     imports: [
         // BrowserAnimationsModule,
@@ -67,7 +69,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
         MatSortModule,
         MatPaginatorModule,
         MatBadgeModule,
-        DragDropModule
+        DragDropModule,
+        MatTreeModule
       ],
       exports : [
         // BrowserAnimationsModule,
@@ -103,7 +106,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
         MatSortModule,
         MatPaginatorModule,
         MatBadgeModule,
-        DragDropModule
+        DragDropModule,
+        MatTreeModule
       ],
 
 })
